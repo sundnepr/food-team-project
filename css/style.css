@@ -37,3 +37,40 @@ img {
   padding: 0 16px;
   margin: 0 auto;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-right: 30px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-link {
+  display: block;
+  padding: 28px 0;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.main-button {
+  display: block;
+  padding: 6px 18px;
+  height: 32px;
+  min-width: 98px;
+  border-radius: 30px;
+  background-color: #bbf330;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 13px;
+}
