@@ -31,5 +31,32 @@
     </main>
     <!-- fotter Богдан-->
     <!-- modal Денис-->
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg width="11" height="11">
+            <use href="./img/icons.svg#close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Order Form</p>
+        <form action="">
+          <div class="modal-input-wrap">
+            <lable for="user-name" class="lable-form">Name</lable>
+            <input id="user-name" type="text" class="input-form" placeholder="Your name">
+          </div>
+          <div class="modal-input-wrap">
+            <lable for="user-tel" class="lable-form">Phone number</lable>
+            <input id="user-tel" type="tel" class="input-form" placeholder="+38(0_ _) _ _ _   _ _   _ _">
+          </div>
+          <div class="modal-input-wraper">
+            <lable for="user-email" class="lable-form">E-mail</lable>
+            <input id="user-email" type="email" class="input-form" placeholder="example@gmail.com">
+          </div>
+          <button type="submit" class="modal-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="./js/modal.js"></script>
   </body>
 </html>
