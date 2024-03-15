@@ -38,6 +38,101 @@ img {
   margin: 0 auto;
 }
 
+/* Modal */
+.backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(94, 99, 99, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal {
+  border-radius: 30px;
+  width: 458px;
+  height: 449px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  background: #ffe550;
+  padding: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-close-btn {
+  position: absolute;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  top: 12px;
+  right: 12px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  line-height: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.is-hidden {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.modal-input-wrap {
+  margin-bottom: 24px;
+}
+.lable-form {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 2px;
+  display: block;
+  margin-left: 12px;
+}
+.input-form {
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  border-radius: 30px;
+  width: 100%;
+  height: 48px;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding-left: 12px;
+  outline: transparent;
+}
+.modal-btn {
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  min-width: 106px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #bbf330;
+  border: 1px solid #7eb101;
+}
+
+.modal-input-wraper {
+  margin-bottom: 32px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
